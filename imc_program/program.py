@@ -1,4 +1,6 @@
 
+    
+
 nome = input('Nome: ') # str
 
 idade = input('Qual a sua idade: ') # int
