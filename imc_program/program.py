@@ -14,19 +14,19 @@ imc = float(peso) / (float(altura) * float(altura)) # Formula
 # Resultante IMC
 
 if imc < 17:
-    print(nome, ', O seu indice de massa corporal está muito abaixo do recomendado, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal está muito abaixo do recomendado, e o seu imc é: {imc:.2f}')
 elif 17 <= imc < 18.49:
-    print(nome, ', O seu indice de massa corporal está abaixo do recomendado, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal está abaixo do recomendado, e o seu imc é: {imc:.2f}')
 elif 18.50 <= imc < 24.99:
-    print(nome, ', O seu indice de massa corporal está normal, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal está normal, e o seu imc é: {imc:.2f}')
 elif 25 <= imc < 29.99:
-    print(nome, ', O seu indice de massa corporal é considerado acima do peso recomendado, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal é considerado acima do peso recomendado, e o seu imc é: {imc:.2f}')
 elif 30 <= imc < 34.99:
-    print(nome, ', O seu indice de massa corporal é considerado obesidade 1, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal é considerado obesidade I, e o seu imc é: {imc:.2f}')
 elif 35 <= imc < 39.99:
-    print(nome, ', O seu indice de massa corporal é considerado obesidade 2, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal é considerado obesidade II, e o seu imc é: {imc:.2f}')
 elif imc > 40:
-    print(nome, ', O seu indice de massa corporal é considerado obesidade 3, e o seu imc é:', imc)
+    print(f'{nome} o seu indice de massa corporal é considerado obesidade III, e o seu imc é: {imc:.2f}')
      
      
 """
