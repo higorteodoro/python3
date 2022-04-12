@@ -24,5 +24,3 @@ imc = peso / (altura ** 2) # formula
     # utilizando essa forma de formatação de string eu sempre tenho que nomear as variaveis.
 
  print('{n} tem {i} anos de idade e seu imc é {:.2f}'.format(n=nome, i=idade, imc))
-
-
