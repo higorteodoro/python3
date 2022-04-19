@@ -10,6 +10,9 @@ altura = input('Informe a sua altura com ponto: ' ) # float
 peso = input('Informe o seu peso com ponto: ' ) # float
 
 imc = float(peso) / (float(altura) * float(altura)) # Formula
+# nao  definir o operador da variavel pelo codigo
+  
+# criar uma somente para a conversao. ex peso = float()
 
 # Resultante IMC
 
