@@ -16,3 +16,15 @@ menos escreva "Seu nome e curo"; se tiver entre 5 e 6, escreva "Seu nome e norma
 Maior que 6 escreva "Seu nome e muito grande"
 
 """
+
+nome = input('Qual o seu nome: ')
+num = input('Digite um numero inteiro: ')
+num = int()
+resultado = num % 2
+if resultado == 0:
+    print(f'{nome} o numero digitado é {...} esse numero é par')
+else:
+    print(f'{nome} o numero digitado é {...} esse numero é impar')
+         
+
+
