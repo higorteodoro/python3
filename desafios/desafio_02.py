@@ -26,15 +26,15 @@ if resultado == 0:
 else:
     print(f'{nome} o numero digitado é {num} esse numero é impar')
 """    
- 
-         
+ """       
 nome = input('Qual o seu nome: ')
 quantidade = len(nome)
 
 if quantidade <= 4:
     print(f'Seu nome é curto')
-elif 5 > quantidade <= 6:
+elif 5 >= quantidade <= 6:
     print(f'Seu nome é normal')
-elif quantidade > 7:    
+elif quantidade > 6:    
     print(f'Seu nome é normal')
+""" 
 
