@@ -16,3 +16,17 @@ menos escreva "Seu nome e curo"; se tiver entre 5 e 6, escreva "Seu nome e norma
 Maior que 6 escreva "Seu nome e muito grande"
 
 """
+
+nome = input('Digite seu nome: ')
+hora = float(input(f'Que horas sao {nome}?:'))
+
+
+if hora <= 11.59:
+    print(f'Bom dia {nome}')
+elif 12 >= hora > 17.59:
+    print(f'Boa tarde {nome}')
+elif 18 >= hora < 23.59:
+    print(f'Boa noite {nome}')
+
+
+
