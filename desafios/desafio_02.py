@@ -44,7 +44,7 @@ hora = float(input(f'Que horas sao {nome}?:'))
 
 if hora <= 11.59:
     print(f'Bom dia {nome}')
-elif hora >= 12 and hora > 17.59:
+elif hora >= 12 and hora >= 17.59:
     print(f'Boa tarde {nome}')
 elif hora >= 18 and hora <= 23.59:
     print(f'Boa noite {nome}')

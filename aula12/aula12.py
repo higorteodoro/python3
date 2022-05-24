@@ -18,11 +18,15 @@ Formatando valores com modificadores - aula 5
 ^ - Centro
     
 """
-    
+"""    
 num_1 = 1
 print(f'{num_1:0>10}')
     
-    
-    
 num_2 = 1150
 print(f'{num_2:0<10}')
+"""
+
+nome = 'hiGor robErto'
+print(nome.lower()) # tudo minusculo
+print(nome.upper()) # tudo maiusculo
+print(nome.title()) # Primeira letras maiusculas 
