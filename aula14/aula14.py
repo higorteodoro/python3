@@ -2,6 +2,7 @@
 # continue: até ser verdadeiro após passa para outro laço
 # break: quando for verdadeiro para
 
+
 x += 1 # x = x + 1 simplificar o codigo
 
  While em Python - Aula 7
@@ -41,7 +42,7 @@ while x < 10:
     print(x)
     x = x + 1 
 """    
-
+"""
 x = 0 # coluna
 while x < 10:
     y = 0 # linha
@@ -52,6 +53,25 @@ while x < 10:
     x += 1 # x = x + 1
 
 print('Acabou!')
-
+"""
 # continue: até ser verdadeiro após passa para outro laço
 # break: quando for verdadeiro para
+
+"""
+While / Else - aula 8
+Contadores
+acumuladores
+
+    
+    
+"""
+
+contador = 1
+acumulador = 1
+
+
+while contador <= 100:
+    print(contador, acumulador)
+    
+    acumulador = acumulador + contador
+    contador += 1 
